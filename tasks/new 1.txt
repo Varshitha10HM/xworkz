@@ -1,0 +1,17 @@
+class Passport {
+    
+	public static boolean createPassport(String cprLocation , int dcdrLocation ,String surName,String dob,String email,
+	boolean isEmailLoginSame, String loginId,String pwd,String confirmpwd,String hintQues, String hintAns,String captcha){
+	{
+	System.out.println(" the cpr Location is:"+cprLocation);
+	System.out.println("the dcdr Location is:"+ dcdrLocation);
+	System.out.println(" sur name is :"+surName);
+	System.out.println(" date of birth is:"+dob);
+	System.out.println(" email is:"+email);
+	System.out.println("is EmailLogin Same:"+isEmailLoginSame);
+	System.out.println(" the login id is:"+loginId);
+	System.out.println(" password is :"+pwd);
+	System.out.println("confirm password is:"+confirmpwd);
+	System.out.println("the hint answer is:"+confirmpwd);
+	System.out.println("captcha is:"+captcha);
+	
